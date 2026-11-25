@@ -8,7 +8,7 @@ import { useDispatch } from 'react-redux'
 import authService from './Backend/AuthService'
 
 function App() {
-const url="https://png.pngtree.com/thumb_back/fh260/background/20240727/pngtree-beautiful-snapseed-background-hd-4k-for-editing-image-image_16118056.jpg"
+const url="https://images.pexels.com/photos/6752321/pexels-photo-6752321.jpeg"
 const [isloading, setIsLoading] = useState(true)
 
 const dispatch= useDispatch()
